@@ -7,7 +7,7 @@
 Add a System Tray Icon to your tkinter port of PySimpleGUI.
 
         
-## Installation
+## Installation via pip
 
 Installation is via pip:
 
@@ -17,6 +17,15 @@ or if you need to upgrade later:
 
 `python -m pip install --upgrade --no-cache-dir psgtray`
 
+## Installation via this repo
+
+You can also download this repo and install it.  
+
+* Download the folder and files
+* From a command prompt:
+*   Change to the folder downloaded
+*   For Windows type:  python step.py install
+*   For other platforms:  python3 setup.py install
 
 ## Adding To Your PySimpleGUI Program
 
