@@ -24,7 +24,7 @@ You can also download this repo and install it.
 * Download the folder and files
 * From a command prompt:
 *   Change to the folder downloaded
-*   For Windows type:  python step.py install
+*   For Windows type:  python setup.py install
 *   For other platforms:  python3 setup.py install
 
 ## Adding To Your PySimpleGUI Program
