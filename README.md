@@ -6,11 +6,8 @@
 
 Add a System Tray Icon to your tkinter port of PySimpleGUI.
 
-![psgtray repo](https://user-images.githubusercontent.com/46163555/123524894-2e4ceb80-d69b-11eb-830d-b572cd9038da.gif)
-
         
-
-## Installation via pip
+## Installation
 
 Installation is via pip:
 
@@ -20,15 +17,6 @@ or if you need to upgrade later:
 
 `python -m pip install --upgrade --no-cache-dir psgtray`
 
-## Installation via this repo
-
-You can also download this repo and install it.  
-
-* Download the folder and files
-* From a command prompt:
-*   Change to the folder downloaded
-*   For Windows type:  `python setup.py install`
-*   For other platforms:  `python3 setup.py install`
 
 ## Adding To Your PySimpleGUI Program
 
@@ -121,11 +109,26 @@ The Windows implementation is working well.  The Linux GTK version, not as well.
 
 Updating the Menu after initial creation is not yet supported.
 
+# Requirements
+
+In order to use this pacakge you'll also need these packages:
+
+* PySimpleGUI
+* pystray (licensed under LGPL3)
+
+Currently only versions <= 0.18.0 of pystray are supported
+
+
 ## Release Notes
+
+### psgtray 1.0.2  12-Jan-2022
+
+* Changed pypi setup to indicate version of pystray needs to be <= 0.18.0
+ 
 
 ### psgtray 1.0.1  21-Jun-2021
 
-Initial Release
+* Initial Release
 
 
 # Designed and written by        
