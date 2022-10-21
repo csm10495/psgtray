@@ -130,6 +130,10 @@ Currently only versions <= 0.18.0 of pystray are supported
 
 * Initial Release
 
+# Support
+
+Please open Issues in the main PySimpleGUI GitHub by with using the `psgisues` utility, the PySimpleGUI test harness, or go to https://Issues.PySimpleGUI.org.  
+
 
 # Designed and written by        
 
