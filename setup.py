@@ -4,7 +4,7 @@ def readme():
     try:
         with open('README.md') as f:
             return f.read()
-    except IOError:
+    except (IOError, UnicodeDecodeError):
         return ''
 
 
@@ -12,9 +12,9 @@ setuptools.setup(
     name="psgtray",
     version="1.0.2",
     author="PySimpleGUI",
-    author_email="mike@PySimpleGUI.org",
-    install_requires=['PySimpleGUI', 'pystray<=0.18.0', 'pillow'],
-    description="A System Tray Icon that works with the PySimpleGUI tkinter port.  Uses pystray to supply the system tray.  Works well under Windows.",
+    author_email="WAS: mike@PySimpleGUI.org",
+    install_requires=['PySimpleGUI-4-foss', 'pystray<=0.18.0', 'pillow'],
+    description="Mirror of psgtray that depends on  System Tray Icon that works with the PySimpleGUI tkinter port.  Uses pystray to supply the system tray.  Works well under Windows.",
     long_description=readme(),
     long_description_content_type="text/markdown",
     keywords="GUI UI PySimpleGUI tkinter systemtray pystray",
