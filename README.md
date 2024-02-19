@@ -1,4 +1,9 @@
 
+# Note this is a fork of psgtray that links to PySimpleGUI-4-foss
+# Instead of the non-opensource PySimpleGUI 5+
+# I'm not planning on updating this, just using it for my own cases.
+# pip install psgtray-foss
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/for_readme/Logo%20with%20text%20for%20GitHub%20Top.png" alt="Python GUIs for Humans">
   <h1 align="center">psgtray</h1>
@@ -6,7 +11,7 @@
 
 Add a System Tray Icon to your tkinter port of PySimpleGUI.
 
-        
+
 ## Installation
 
 Installation is via pip:
@@ -28,19 +33,19 @@ from psgtray import SystemTray
 
 """
     A System Tray Icon courtesy of pystray and your friends at PySimpleGUI
-    
+
     Import the SystemTray object with this line of code:
     from psgtray import SystemTray
 
-    Key for the system tray icon is: 
+    Key for the system tray icon is:
         tray = SystemTray()
         tray.key
-        
+
     values[key] contains the menu item chosen.
-    
+
     One trick employed here is to change the window's event to be the event from the System Tray.
-    
-    
+
+
     Copyright PySimpleGUI 2021
 """
 
@@ -124,7 +129,7 @@ Currently only versions <= 0.18.0 of pystray are supported
 ### psgtray 1.0.2  12-Jan-2022
 
 * Changed pypi setup to indicate version of pystray needs to be <= 0.18.0
- 
+
 
 ### psgtray 1.0.1  21-Jun-2021
 
@@ -132,20 +137,20 @@ Currently only versions <= 0.18.0 of pystray are supported
 
 # Support
 
-Please open Issues in the main PySimpleGUI GitHub by with using the `psgisues` utility, the PySimpleGUI test harness, or go to https://Issues.PySimpleGUI.org.  
+Please open Issues in the main PySimpleGUI GitHub by with using the `psgisues` utility, the PySimpleGUI test harness, or go to https://Issues.PySimpleGUI.org.
 
 
-# Designed and written by        
+# Designed and written by
 
-mike from PySimpleGUI.org   
+mike from PySimpleGUI.org
 
-# Contributing 
+# Contributing
 
 Like the PySimpleGUI project, the psgtray project is currently licensed under an open-source license, the project itself is structured like a proprietary product.  Pull Requests are not accepted.
 
-   
-# License        
-GNU Lesser General Public License (LGPL 3) +        
 
-# Copyright        
+# License
+GNU Lesser General Public License (LGPL 3) +
+
+# Copyright
 Copyright 2021 PySimpleGUI
